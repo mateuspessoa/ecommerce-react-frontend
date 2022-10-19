@@ -1,10 +1,18 @@
 import React from 'react'
+import Announcement from '../components/Announcement'
+import Navbar from '../components/Navbar'
+
+
+
 
 const Home = () => {
   return (
-    <div>
-        Página Home
+
+    <div className='container'>
+        <Announcement />
+        <Navbar />
     </div>
+    
   )
 }
 
